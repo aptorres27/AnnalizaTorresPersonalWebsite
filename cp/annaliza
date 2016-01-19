@@ -1,0 +1,44 @@
+# cPanel -- If you edit this file directly you must run /usr/local/cpanel/scripts/updateuserdomains afterwards to rebuild the system caches.
+# If you edit MAX_EMAIL_PER_HOUR or MAX_EMAIL_PER_HOUR-[domain] you must run /usr/local/cpanel/scripts/updateuserdomains'
+
+BACKUP=0
+BWLIMIT=unlimited
+CONTACTEMAIL=aptorres27@gmail.com
+CONTACTEMAIL2=
+DEMO=0
+DNS=annaliza.club
+FEATURELIST=value
+HASCGI=1
+HASDKIM=1
+HASSPF=0
+IP=68.65.120.207
+LEGACY_BACKUP=1
+LOCALE=en
+MAXADDON=2
+MAXFTP=50
+MAXLST=10
+MAXPARK=50
+MAXPOP=50
+MAXSQL=50
+MAXSUB=50
+MAX_DEFER_FAIL_PERCENTAGE=unlimited
+MAX_EMAIL_PER_HOUR=200
+MTIME=1453235231
+MXCHECK-annaliza.club=0
+OWNER=wh
+PLAN=value 4G
+PUSHBULLET_ACCESS_TOKEN=
+RS=paper_lantern
+STARTDATE=1445797494
+SUSPENDTIME=1445800669
+USER=annaliza
+notify_account_login=0
+notify_account_login_for_known_netblock=0
+notify_account_login_notification_disabled=1
+notify_bandwidth_limit=1
+notify_contact_address_change=1
+notify_contact_address_change_notification_disabled=1
+notify_disk_limit=1
+notify_email_quota_limit=1
+notify_password_change=1
+notify_password_change_notification_disabled=1

@@ -1,0 +1,16 @@
+--- 
+__version: '2.1'
+annaliza.club: 
+  account_count: 2
+  accounts: 
+    annaliza: 
+      disk_mtime: '1453237712'
+      diskquota: 262144000
+      diskused: 0
+    annalizat: 
+      disk_mtime: '1453237712'
+      diskquota: 262144000
+      diskused: 0
+  disk_mtime: '1453237712'
+  passwd_mtime: '1453237712'
+  quota_mtime: '1453237712'

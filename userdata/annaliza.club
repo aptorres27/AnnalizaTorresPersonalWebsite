@@ -1,0 +1,31 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /usr/local/apache/domlogs/annaliza.club
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /usr/local/apache/domlogs/annaliza.club-bytes_log
+documentroot: /home/annaliza/public_html
+group: annaliza
+hascgi: 1
+homedir: /home/annaliza
+ifmodulemodsuphpc: 
+  group: annaliza
+ip: 68.65.120.207
+owner: wh
+phpopenbasedirprotect: 1
+port: 81
+scriptalias: 
+  - 
+    path: /home/annaliza/public_html/cgi-bin
+    url: /cgi-bin/
+  - 
+    path: /home/annaliza/public_html/cgi-bin/
+    url: /cgi-bin/
+serveradmin: webmaster@annaliza.club
+serveralias: www.annaliza.club
+servername: annaliza.club
+usecanonicalname: 'Off'
+user: annaliza
+userdirprotect: ''

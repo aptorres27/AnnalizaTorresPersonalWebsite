@@ -1,0 +1,52 @@
+#main{ 
+    background: url('https://ecob.wildapricot.org/resources/ECOB%20Home%20pics/engineering-pictures-12.jpg');
+ }
+
+h1 {
+background: black;
+border: 2px dashed black;
+color: white;
+font-family:'Bitter';
+font-weight: bold;
+text-transform: full-width;
+font-size: 30px;
+}
+
+ol{ 
+}
+
+li{
+background: white;
+font-family:'Arial';
+font-size: 20px;
+}
+
+h2{
+background: black;
+width: 135px;
+color:white;
+font-family: 'Seymour One';
+font-weight: bold;
+font-size: 28px;
+}
+
+
+p{
+background: white;
+font-family:'Arial';
+text-align: center;
+}
+
+
+#modalpopup{
+	z-index: 99;
+	background: Black;
+	position: fixed;
+	width: 200px;
+	height:200px;
+	top: 200px;
+	left: 200px;
+	z-index: 10;
+}
+
+

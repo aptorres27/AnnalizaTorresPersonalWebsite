@@ -1,0 +1,40 @@
+; cPanel first:11.48.4.7 (update_time):1451223131 Cpanel::ZoneFile::VERSION:1.3 hostname:server178.web-hosting.com latest:11.50.3.1
+; Zone file for annaliza.club
+$TTL 1200
+annaliza.club.	1800000	IN	SOA	dns1.namecheaphosting.com.	audit.namecheaphosting.com.	(
+						2015122700 ;Serial Number
+						86400 ;refresh
+						7200 ;retry
+						3600000 ;expire
+						86400	)
+
+annaliza.club.	1800000	IN	NS	dns1.namecheaphosting.com.
+annaliza.club.	1800000	IN	NS	dns2.namecheaphosting.com.
+
+
+annaliza.club.	1200	IN	A	68.65.120.207
+
+annaliza.club.	1200	IN	MX	0	mail.annaliza.club.
+
+mail	1200	IN	A	68.65.120.207
+www	1200	IN	CNAME	annaliza.club.
+ftp	1200	IN	A	68.65.120.204
+cpanel	1200	IN	A	68.65.120.207
+webdisk	1200	IN	A	68.65.120.207
+whm	1200	IN	A	68.65.120.207
+webmail	1200	IN	A	68.65.120.207
+autoconfig	1200	IN	A	68.65.120.207
+autodiscover	1200	IN	A	68.65.120.207
+_autodiscover._tcp	1200	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+default._domainkey	1200	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2Mj4DESfUcrG8aQGAMlSrj3KeYZ2PL336rSU73py54uKw4cIA0HPYpPLa/wroCxKOOPgjvDAoiKSmOXa9o9d8SXY0uMms3kuWd2u7cJ3ITDdU7MkHshZ7MVo7a8B13FRpxUtbDeec0bmQQDXiTFh1v43yaK/aFX1X/cRcJeohZQIDAQAB;"
+annaliza.club.	14400	IN	TXT	"v=spf1 include:spf.efwd.registrar-servers.com +a +mx"
+cpcalendars IN A 68.65.120.207
+_caldav._tcp IN SRV 0 0 2079 server178.web-hosting.com.
+_caldavs._tcp IN SRV 0 0 2080 server178.web-hosting.com.
+_carddav._tcp IN SRV 0 0 2079 server178.web-hosting.com.
+_carddavs._tcp IN SRV 0 0 2080 server178.web-hosting.com.
+_caldav._tcp IN TXT path=/
+_caldavs._tcp IN TXT path=/
+_carddav._tcp IN TXT path=/
+_carddavs._tcp IN TXT path=/
+cpcontacts IN A 68.65.120.207
